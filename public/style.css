@@ -1,0 +1,79 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #090711;
+  color: white;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 70px 20px 40px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 18px;
+}
+
+h1 span {
+  color: #a855f7;
+}
+
+header p {
+  color: #c4bfd2;
+  margin-bottom: 28px;
+}
+
+.discord, button {
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 22px;
+  background: #8b5cf6;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.discord:hover, button:hover {
+  background: #7c3aed;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 500px;
+  padding: 35px;
+  text-align: center;
+  background: #151122;
+  border: 1px solid #39245a;
+  border-radius: 18px;
+  box-shadow: 0 0 35px #6d28d922;
+}
+
+.card h2 {
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: #c4bfd2;
+  line-height: 1.6;
+  margin-bottom: 22px;
+}
+
+#message {
+  margin-top: 20px;
+}
